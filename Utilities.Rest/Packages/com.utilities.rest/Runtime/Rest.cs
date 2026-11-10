@@ -1862,7 +1862,6 @@ namespace Utilities.WebRequestRest
                     finally
                     {
                         serverSentEventCts.Cancel();
-                        serverSentEventCts.Dispose();
                     }
                 }
             }
